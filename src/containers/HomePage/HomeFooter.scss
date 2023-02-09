@@ -1,0 +1,23 @@
+.home-footer {
+    background-color: #49BCE2;
+    height: 100px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+        width: 10%;
+    }
+
+    div {
+        width: 10%;
+
+        i {
+            font-size: 28px;
+            color: #fff;
+            padding: 0 8px;
+        }
+    }
+
+}

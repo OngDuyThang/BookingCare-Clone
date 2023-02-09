@@ -1,0 +1,87 @@
+.section-suggest {
+    min-height: 350px;
+    margin-top: 16px;
+
+    .suggest-content {
+
+        .slick-dots {
+            display: none !important;
+        }
+
+        .slick-initialized {
+            display: flex !important;
+            height: 400px !important;
+            align-items: center !important;
+
+            .slick-prev {
+                min-height: 50px !important;
+                min-width: 50px !important;
+                background: url('../../../assets/images/leftarrow.png') center center no-repeat;
+                color: transparent;
+                margin-left: 100px;
+                margin-right: 16px;
+                z-index: 1;
+                opacity: 0.3;
+                border-radius: 50%;
+            }
+
+            .slick-prev:hover {
+                opacity: 1;
+            }
+
+            .slick-next {
+                min-height: 50px !important;
+                min-width: 50px !important;
+                background: url('../../../assets/images/rightarrow.png') center center no-repeat;
+                color: transparent;
+                margin-right: 100px;
+                margin-left: 16px;
+                z-index: 1;
+                opacity: 0.3;
+                border-radius: 50%;
+            }
+
+            .slick-next:hover {
+                opacity: 1;
+            }
+
+            .slick-list {
+                height: 100% !important;
+
+                .slide-page {
+                    display: flex !important;
+                    justify-content: space-between;
+
+                    .slide-item {
+                        max-height: 600px !important;
+                        width: 22%;
+                        cursor: pointer;
+
+                        .item-image {
+                            background-position: center !important;
+                            background-repeat: no-repeat !important;
+                            background-size: cover !important;
+                            min-height: 150px !important;
+                            border-radius: 12px !important;
+                        }
+
+                        .item-title {
+                            font-weight: bold;
+                            font-size: 14px;
+                            margin-top: 16px;
+                        }
+
+                        .item-content {
+                            font-size: 13px;
+                            margin-top: 16px;
+                        }
+
+                        .item-detail {
+                            color: #49BCE2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

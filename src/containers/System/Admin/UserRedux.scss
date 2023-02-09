@@ -1,0 +1,20 @@
+.preview-container {
+    .label-upload {
+        padding: 4px 8px;
+        background-color: #FFC10E;
+        cursor: pointer;
+    }
+
+    .preview-image {
+        margin-top: 16px;
+        height: 100px;
+        border: 1px solid rgb(197, 195, 195);
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: contain !important;
+    }
+}
+
+.hide-btn {
+    display: none;
+}

@@ -1,0 +1,198 @@
+.home-header-container {
+    position: fixed;
+    z-index: 3;
+    height: 80px;
+    width: 100%;
+    background-color: white;
+
+    .home-header-content {
+        display: flex;
+
+
+        .home-header-logo {
+            display: flex;
+            width: 20%;
+            height: 80px;
+            justify-content: center;
+            align-items: center;
+
+            .header-logo {
+                background: url('../../assets/images/logo.svg') center center no-repeat;
+                height: 80px;
+                width: 60%;
+                margin-left: 16px;
+                cursor: pointer;
+            }
+
+            button {
+                background-color: transparent;
+                border: none;
+
+                .fa-bars {
+                    color: #000;
+                    font-size: 30px;
+                }
+            }
+        }
+
+        .home-header-selection {
+            display: flex;
+            width: 60%;
+            justify-content: center;
+            align-items: center;
+
+            div {
+                margin: 0 24px;
+                cursor: pointer;
+
+                .bold-span {
+                    font-weight: bold;
+                }
+            }
+
+
+        }
+
+        .home-header-info {
+            display: flex;
+            width: 20%;
+            justify-content: center;
+            align-items: center;
+
+            .language-vi {
+                background: url('../../assets/images/vietnamese.png') center center no-repeat;
+                width: 24px;
+                height: 24px;
+                border-radius: 50%;
+                margin-right: 32px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+
+                span {
+                    margin-left: 48px;
+                }
+            }
+
+            .language-en {
+                background: url('../../assets/images/britain.png') center center no-repeat;
+                width: 24px;
+                height: 24px;
+                border-radius: 50%;
+                margin-right: 32px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+
+                span {
+                    margin-left: 48px;
+                }
+            }
+
+            a {
+                margin-left: 16px;
+                cursor: pointer;
+
+                .fa-info-circle {
+                    margin-right: 3px;
+                    color: #49BCE2;
+                    font-size: 16px;
+                }
+            }
+
+            .language-hide {
+                opacity: 0.5;
+            }
+        }
+    }
+}
+
+.home-header-banner {
+    background: url('../../assets/images/background.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+    padding: 50px 0;
+    box-shadow: inset 0px -150px 100px 0px #FFF;
+
+
+    .banner-title {
+        font-size: 32px;
+        color: #fff;
+        text-shadow: 1px 1px 1px #000000;
+        text-transform: uppercase;
+
+        .bold-span {
+            font-weight: bold;
+        }
+    }
+
+    .banner-search {
+        width: 32%;
+        height: 50px;
+        margin: auto;
+        background-color: #49BCE2;
+        border-radius: 32px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        .fa-search {
+            margin-left: 16px;
+        }
+
+        input {
+            border: none;
+            background-color: transparent;
+            color: #fff;
+            margin-left: 16px;
+            width: 80%;
+            font-size: 16px;
+        }
+
+        input:focus {
+            outline: none;
+        }
+    }
+
+    .banner-selection {
+        display: flex;
+        justify-content: center;
+        margin-top: 270px;
+
+        a {
+            flex: 1;
+            font-weight: 600;
+
+            i {
+                color: #49BCE2;
+                font-size: 32px;
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                background-color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+            }
+
+            span {
+                font-size: 14px;
+            }
+        }
+
+        a:hover {
+            cursor: pointer;
+
+            span {
+                color: #49BCE2;
+            }
+        }
+    }
+}

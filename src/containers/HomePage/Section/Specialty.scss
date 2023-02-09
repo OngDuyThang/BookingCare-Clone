@@ -1,0 +1,192 @@
+.section-specialty {
+
+    background-color: #f5f5f5 !important;
+    padding: 40px 0 30px 0;
+
+    .section-header {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 165px;
+        padding-bottom: 32px;
+
+        .section-title {
+            font-size: 24px;
+            font-weight: bold;
+
+        }
+
+        .more-button {
+            height: 36px;
+            background-color: #fff;
+            border-radius: 4px;
+        }
+
+        .more-button:hover {
+            background-color: #FFC10E;
+            color: #fff;
+            border: none;
+        }
+    }
+
+    .specialty-content {
+
+        .slick-dots {
+            display: none !important;
+        }
+
+        .slick-initialized {
+            display: flex !important;
+            height: 250px !important;
+            align-items: center !important;
+
+            .slick-prev {
+                min-height: 50px !important;
+                min-width: 50px !important;
+                background: url('../../../assets/images/leftarrow.png') center center no-repeat;
+                color: transparent;
+                margin-left: 100px;
+                margin-right: 16px;
+                z-index: 1;
+                opacity: 0.3;
+                border-radius: 50%;
+            }
+
+            .slick-prev:hover {
+                opacity: 1;
+            }
+
+            .slick-next {
+                min-height: 50px !important;
+                min-width: 50px !important;
+                background: url('../../../assets/images/rightarrow.png') center center no-repeat;
+                color: transparent;
+                margin-right: 100px;
+                margin-left: 16px;
+                z-index: 1;
+                opacity: 0.3;
+                border-radius: 50%;
+            }
+
+            .slick-next:hover {
+                opacity: 1;
+            }
+
+            .slick-list {
+                height: 100% !important;
+                // display: flex !important;
+                text-align: center;
+
+                .slide-item {
+                    max-height: 600px !important;
+                    cursor: pointer;
+
+                    .item-image {
+                        // background: url('../../../assets/images/background.webp') center center no-repeat;
+                        background-position: center !important;
+                        background-repeat: no-repeat !important;
+                        background-size: cover !important;
+                        height: 200px;
+                        border-radius: 4px;
+                        width: 270px;
+                        margin: auto;
+                    }
+
+                    .item-title {
+                        font-size: 16px;
+                    }
+
+                    p {
+                        margin-top: 16px;
+                    }
+                }
+
+                .last-item {
+                    display: none !important;
+                }
+
+                .slide-item:hover {
+                    .item-title {
+                        color: #49BCE2;
+
+                    }
+                }
+
+            }
+        }
+
+    }
+}
+
+.section-facilities {
+    background-color: #fff !important;
+}
+
+.section-doctors {
+    .slide-item {
+        text-align: center;
+
+        .item-image-doctor {
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+            border-radius: 50% !important;
+            min-height: 150px !important;
+            width: 150px;
+            margin: auto;
+        }
+    }
+}
+
+.section-handbook {
+    background-color: #fff !important;
+
+    .slide-item {
+        display: flex !important;
+
+        .item-image-handbook {
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+            height: 200px;
+            width: 50%;
+        }
+
+        .item-title {
+            width: 50% !important;
+            font-size: 18px !important;
+        }
+    }
+}
+
+.section-about {
+
+    .about-content {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 165px;
+
+        iframe {
+            width: 50%;
+            height: 340px
+        }
+
+        .web-links {
+            height: 200px;
+            width: 42%;
+            border: 1px solid red;
+            display: flex;
+            flex-wrap: wrap;
+
+            a {
+                width: 100px;
+
+                .links-img {
+                    height: 60px;
+                    background-position: center center !important;
+                    background-repeat: no-repeat !important;
+                    background-size: cover !important;
+                }
+            }
+        }
+    }
+}
