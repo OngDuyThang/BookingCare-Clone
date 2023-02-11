@@ -123,18 +123,6 @@ class Suggest extends Component {
                                 <span className="item-detail">XEM CHI TIẾT</span>
                             </div>
                         </div>
-                        <div className="slide-page">
-                            <h3>3</h3>
-                        </div>
-                        <div className="slide-page">
-                            <h3>4</h3>
-                        </div>
-                        <div className="slide-page">
-                            <h3>5</h3>
-                        </div>
-                        <div className="slide-page">
-                            <h3>6</h3>
-                        </div>
                     </Slider>
                 </div >
             </div >

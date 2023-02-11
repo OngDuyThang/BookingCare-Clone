@@ -96,28 +96,16 @@ class HomeHeader extends Component {
                                 <span><FormattedMessage id="banner.selection3" /></span>
                             </a>
                             <a>
-                                <i class="far fa-microscope"></i>
+                                <i class="fas fa-flask"></i>
                                 <span><FormattedMessage id="banner.selection4" /></span>
                             </a>
                             <a>
-                                <i class="fas fa-head-side-brain"></i>
+                                <i class="fas fa-user-md"></i>
                                 <span><FormattedMessage id="banner.selection5" /></span>
                             </a>
                             <a>
-                                <i class="fas fa-tooth"></i>
+                                <i class="fas fa-briefcase-medical"></i>
                                 <span><FormattedMessage id="banner.selection6" /></span>
-                            </a>
-                            <a>
-                                <i class="fas fa-kidneys"></i>
-                                <span><FormattedMessage id="banner.selection7" /></span>
-                            </a>
-                            <a>
-                                <i class="fas fa-watch-fitness"></i>
-                                <span><FormattedMessage id="banner.selection8" /></span>
-                            </a>
-                            <a>
-                                <i class="far fa-procedures"></i>
-                                <span><FormattedMessage id="banner.selection9" /></span>
                             </a>
                         </div>
                     </div>

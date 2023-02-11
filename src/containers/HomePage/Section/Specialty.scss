@@ -173,18 +173,18 @@
         .web-links {
             height: 200px;
             width: 42%;
-            border: 1px solid red;
             display: flex;
             flex-wrap: wrap;
+            align-items: center;
 
             a {
-                width: 100px;
+                width: 33.33%;
 
                 .links-img {
                     height: 60px;
                     background-position: center center !important;
                     background-repeat: no-repeat !important;
-                    background-size: cover !important;
+                    background-size: contain !important;
                 }
             }
         }
